@@ -1,0 +1,70 @@
+:root {
+    --navy: #1b2538;
+    --navy-2: #2b3a55;
+    --amber: #f5a524;
+    --amber-dark: #c77d0a;
+    --bg: #f0ebe3;
+}
+
+body { background: var(--bg); color: var(--navy); font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; }
+a { color: var(--navy-2); }
+.text-amber { color: var(--amber); }
+.dot { color: var(--amber); }
+
+/* Navbar */
+.navbar-furnio { background: var(--navy); box-shadow: 0 2px 10px rgba(0,0,0,.2); }
+.navbar-furnio .nav-link { color: rgba(255,255,255,.75); }
+.navbar-furnio .nav-link:hover,
+.navbar-furnio .nav-link.active { color: var(--amber); }
+
+/* Tombol */
+.btn-amber { background: var(--amber); border-color: var(--amber); color: var(--navy); font-weight: 600; }
+.btn-amber:hover { background: #ffb73d; border-color: #ffb73d; color: var(--navy); }
+.btn-navy { background: var(--navy); border-color: var(--navy); color: #fff; }
+.btn-navy:hover { background: var(--navy-2); border-color: var(--navy-2); color: #fff; }
+.link-navy { color: var(--navy-2); font-weight: 600; text-decoration: none; }
+.link-navy:hover { color: var(--amber-dark); }
+
+/* Hero */
+.hero {
+    background: linear-gradient(90deg, rgba(27,37,56,.97) 0%, rgba(27,37,56,.8) 45%, rgba(27,37,56,.25) 100%),
+                url("../images/hero.svg") center bottom / cover no-repeat, var(--navy);
+    min-height: 480px; display: flex; align-items: center;
+}
+.badge-hero { background: rgba(245,165,36,.18); color: var(--amber); font-weight: 600; padding: .5rem .9rem; border-radius: 50px; }
+
+/* Header halaman */
+.page-header { background: linear-gradient(135deg, var(--navy), var(--navy-2)); padding: 2.5rem 0; }
+
+/* Kategori */
+.card-kategori { background: #fff; transition: transform .2s, box-shadow .2s; color: var(--navy); }
+.card-kategori:hover { transform: translateY(-4px); box-shadow: 0 .6rem 1.2rem rgba(0,0,0,.15) !important; }
+.card-kategori img { background: #e8e1d4; aspect-ratio: 4/3; object-fit: cover; }
+
+/* Strip keunggulan */
+.strip { background: var(--navy-2); }
+
+/* Kartu produk */
+.card-product { transition: transform .2s, box-shadow .2s; border-radius: .75rem; overflow: hidden; }
+.card-product:hover { transform: translateY(-5px); box-shadow: 0 .8rem 1.5rem rgba(0,0,0,.15) !important; }
+.card-product .img-wrap { display: block; background: #e8e1d4; }
+.card-product .card-img-top { aspect-ratio: 4/3; object-fit: cover; }
+.badge-kategori { background: rgba(245,165,36,.2); color: var(--amber-dark); font-weight: 600; }
+.harga { color: var(--amber-dark); }
+
+/* Detail */
+.detail-img { background: #e8e1d4; }
+.detail-img img { object-fit: cover; min-height: 320px; }
+.spec-table th { color: #6c757d; font-weight: 600; }
+.spec-table tr { border-bottom: 1px solid #eee; }
+
+/* Footer */
+.footer-furnio { background: var(--navy); color: #fff; }
+.footer-furnio a { color: rgba(255,255,255,.7); text-decoration: none; line-height: 2; }
+.footer-furnio a:hover { color: var(--amber); }
+
+/* Pagination */
+.pagination { --bs-pagination-active-bg: var(--navy); --bs-pagination-active-border-color: var(--navy); --bs-pagination-color: var(--navy); }
+
+/* Grid 7 kolom untuk kategori di layar besar */
+@media (min-width: 992px) { .row-cols-lg-7 > * { flex: 0 0 auto; width: 14.2857%; } }

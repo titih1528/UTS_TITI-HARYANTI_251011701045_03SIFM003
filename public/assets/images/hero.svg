@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" preserveAspectRatio="xMidYMax slice">
+<defs><linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f2a3d"/><stop offset="1" stop-color="#34445f"/></linearGradient>
+<linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3446"/><stop offset="1" stop-color="#1a2130"/></linearGradient></defs>
+<rect width="1200" height="560" fill="url(#w)"/><rect y="400" width="1200" height="160" fill="url(#f)"/>
+<ellipse cx="610" cy="495" rx="360" ry="30" fill="#e8e6e1" opacity=".9"/>
+<g transform="translate(300 100) scale(1.05)">
+<rect x="110" y="170" width="380" height="120" rx="24" fill="#5b8ac0"/>
+<rect x="85" y="215" width="55" height="125" rx="20" fill="#456fa3"/>
+<rect x="460" y="215" width="55" height="125" rx="20" fill="#456fa3"/>
+<rect x="135" y="255" width="165" height="75" rx="14" fill="#7aa2d2"/>
+<rect x="300" y="255" width="165" height="75" rx="14" fill="#7aa2d2"/>
+<rect x="95" y="320" width="410" height="30" rx="10" fill="#456fa3"/>
+<rect x="125" y="350" width="12" height="28" rx="3" fill="#6b4a2f"/><rect x="463" y="350" width="12" height="28" rx="3" fill="#6b4a2f"/>
+<rect x="160" y="195" width="70" height="70" rx="14" fill="#f5a524" transform="rotate(-8 195 230)"/>
+<rect x="385" y="198" width="66" height="66" rx="14" fill="#f2f0ea" transform="rotate(7 418 230)"/></g>
+<ellipse cx="615" cy="492" rx="270" ry="12" fill="#000" opacity=".25"/>
+<rect x="100" y="360" width="80" height="14" fill="#c9a77a"/><rect x="108" y="374" width="8" height="70" fill="#c9a77a"/><rect x="164" y="374" width="8" height="70" fill="#c9a77a"/>
+<rect x="115" y="320" width="50" height="40" rx="8" fill="#e9e4da"/><path d="M140 320 C120 270 110 250 100 235 M140 320 C150 270 165 250 175 238 M140 320 C140 280 140 260 140 240" stroke="#5a9a63" stroke-width="7" fill="none" stroke-linecap="round"/>
+<rect x="1020" y="410" width="70" height="50" rx="8" fill="#c97a3b"/><path d="M1055 410 C1010 330 990 300 985 250 M1055 410 C1080 330 1110 300 1120 240 M1055 410 C1050 340 1055 290 1060 220 M1055 410 C1030 360 1000 350 960 340 M1055 410 C1090 360 1130 350 1150 330" stroke="#3f8a4f" stroke-width="14" fill="none" stroke-linecap="round"/>
+<path d="M880 500 L880 190" stroke="#aeb6c4" stroke-width="5"/><path d="M845 190 L915 190 L900 135 L860 135 Z" fill="#f5a524"/><circle cx="880" cy="190" r="14" fill="#ffe9a8"/>
+</svg>
