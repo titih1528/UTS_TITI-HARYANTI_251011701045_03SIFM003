@@ -50,9 +50,9 @@
     @if ($related->count())
         <h3 class="fw-bold mt-5 mb-3">Produk Terkait</h3>
         <div class="row g-4">
-            @foreach ($related as $furniture)
+            @foreach ($related as $item)
                 <div class="col-6 col-lg-3">
-                    @include('partials.product-card')
+                    @include('partials.product-card', ['furniture' => $item])
                 </div>
             @endforeach
         </div>
