@@ -6,7 +6,6 @@
     <title>@yield('title', 'Beranda') - Furnio</title>
 
     {{-- BOOTSTRAP CSS --}}
-    {{-- Otomatis pakai file lokal kalau sudah ada di public/Bootstrap/css/bootstrap.min.css, kalau belum pakai link online (CDN) --}}
     @if (file_exists(public_path('Bootstrap/css/bootstrap.min.css')))
         <link href="{{ asset('Bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     @else
